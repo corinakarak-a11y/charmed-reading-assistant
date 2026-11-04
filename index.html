@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Charmed | Your Reading Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================================
+         SCREEN 1: ORIGINAL WELCOME SCREEN
+    =================================== -->
+
+    <main class="welcome-screen" id="welcome-screen">
+
+        <!-- Original book cover collage -->
+
+        <div class="book-collage" aria-hidden="true">
+
+            <img src="images/cover-%20(1).png" alt="" class="book-cover cover-one">
+            <img src="images/cover-%20(2).png" alt="" class="book-cover cover-two">
+            <img src="images/cover-%20(3).png" alt="" class="book-cover cover-three">
+            <img src="images/cover-%20(4).png" alt="" class="book-cover cover-four">
+            <img src="images/cover-%20(5).png" alt="" class="book-cover cover-five">
+            <img src="images/cover-%20(6).png" alt="" class="book-cover cover-six">
+            <img src="images/cover-%20(7).png" alt="" class="book-cover cover-seven">
+            <img src="images/cover-%20(8).png" alt="" class="book-cover cover-eight">
+            <img src="images/cover-%20(9).png" alt="" class="book-cover cover-nine">
+            <img src="images/cover-%20(10).png" alt="" class="book-cover cover-ten">
+            <img src="images/cover-%20(11).png" alt="" class="book-cover cover-eleven">
+            <img src="images/cover-%20(12).png" alt="" class="book-cover cover-twelve">
+            <img src="images/cover-%20(13).png" alt="" class="book-cover cover-thirteen">
+            <img src="images/cover-%20(14).png" alt="" class="book-cover cover-fourteen">
+            <img src="images/cover-%20(15).png" alt="" class="book-cover cover-fifteen">
+            <img src="images/cover-%20(16).png" alt="" class="book-cover cover-sixteen">
+
+        </div>
+
+
+        <p class="intro-label">
+            YOUR PERSONAL READING ASSISTANT
+        </p>
+
+        <h1 class="main-title">
+            CHARMED<span>.</span>
+        </h1>
+
+        <p class="welcome-text">
+            A little help finding your next favourite book.
+        </p>
+
+        <button id="begin-button" class="begin-button" type="button">
+            Begin your reading profile
+            <span aria-hidden="true">↗</span>
+        </button>
+
+        <p class="footer-note">
+            MADE FOR READERS, BY READERS.
+        </p>
+
+    </main>
+
+
+    <!-- ==================================
+         SCREEN 2: CHARMED INTRODUCTION
+    =================================== -->
+
+    <section class="intro-screen" id="intro-screen">
+
+        <div class="intro-screen-content">
+
+            <p class="intro-screen-label">
+                A LITTLE MAGIC FOR YOUR NEXT READ
+            </p>
+
+            <h1 class="intro-screen-title">
+                Hi, I'm Charmed<span>.</span>
+            </h1>
+
+            <p class="intro-screen-subtitle">
+                Your Virtual Reading Assistant
+            </p>
+
+            <div class="intro-screen-divider">
+                <span>✦</span>
+            </div>
+
+            <p class="intro-screen-description" id="intro-description" data-text="I'm here to help you find your next favourite book, discover stories you'll fall in love with, and make your reading life a little more magical." aria-live="polite"></p>
+
+            <button class="intro-screen-instruction" id="intro-instruction" type="button" aria-hidden="true">
+                Take the Quiz
+            </button>
+
+        </div>
+
+    </section>
+
+<!-- ==================================
+         SCREEN 2.5: YOUR READER STORY
+    =================================== -->
+
+    <section class="story-screen" id="story-screen">
+
+        <div class="story-screen-content">
+
+            <p class="profile-label">
+                LET'S GET TO KNOW YOU
+            </p>
+
+            <h2 class="profile-title">
+                Every reader has a story.
+            </h2>
+
+            <p class="profile-description">
+                Before we find your next favourite book, let's talk about
+                the kind of reader you are.
+            </p>
+
+            <div class="profile-divider">
+                <span>✦</span>
+            </div>
+
+            <button class="continue-button story-continue-button" id="story-continue-button" type="button">
+                Continue <span aria-hidden="true">↗</span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================
+         SCREEN 3: READING PROFILE
+    =================================== -->
+
+    <section class="profile-screen" id="profile-screen">
+
+        <header class="profile-header">
+
+            <a href="#" class="profile-logo" id="profile-logo">
+                CHARMED<span>.</span>
+            </a>
+
+            <p class="profile-progress">
+                01 <span>/</span> 05
+            </p>
+
+        </header>
+
+
+        <div class="profile-content" id="charmed-app">
+            <div class="app-loading-intro"><p class="profile-label">YOUR READING PROFILE</p><p>Preparing your questions...</p></div>
+        </div>
+    </section>
+
+
+    <!-- ==================================
+         MAGICAL CURSOR
+    =================================== -->
+
+    <div id="magic-cursor" aria-hidden="true">✦</div>
+
+
+    <!-- ==================================
+         JAVASCRIPT
+    =================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
